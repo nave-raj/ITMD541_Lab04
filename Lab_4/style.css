@@ -1,0 +1,135 @@
+.width-50{
+    width: 50%;
+}
+
+.align-content{
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/background.png);
+}
+
+.weather-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-props {
+    width: 50px;
+    height: 50px;
+}
+
+.image-props-big {
+    width: 150px;
+    height: 150px;
+}
+
+.image-props-med {
+    width: 40px;
+    height: 40px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.search-bar {
+    width: 60%;
+    height: 45px;
+    display: inline;
+}
+
+.button-props {
+    height: 40px; 
+}
+
+.text-white {
+    color: white;
+}
+
+.space-20 {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#location-options {
+    margin-bottom: 20px;
+}
+
+#dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+#error-message {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer a {
+    color: #cd820a;
+    text-decoration: none;
+}
+
+.footer p {
+    color: white;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.btn-primary {
+    background-color: rgb(205, 130, 10);
+    border-color: rgb(205, 130, 10);
+}
+
+.btn-primary:hover {
+    background-color: #de9826;
+    border-color: #de9826;
+}
+
+.btn-secondary{
+    background-color:#716868;
+    border-color:#716868;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: auto;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .search-bar {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .button-props  {
+        width: 70%;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
